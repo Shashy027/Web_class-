@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+    table {
+      margin-right: 25%;
+      margin-left: 25%;
+      border-collapse: collapse;
+      width: 50%;
+    }
+      td, th {
+      border: 5px solid black;
+      text-align: left;
+      padding: 8px;
+      text-align: center;
+    }
+      caption{
+      font-size: 40px;
+    }
+   </style>
+   <style>
+    form{
+        border: 1px solid black;
+        max-width: 350px;
+        margin-left: 40%;
+        padding: 10px;
+    }
+
+    label{
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+    input{
+            padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      padding: 20px;
+    }
+        input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+        input[type=submit]:hover {
+      background-color: #45a049;
+    }
+   </style>
+    
+    <title>Homepage</title>
+    
+</head>
+<body>
+
+<table>
+  <caption>
+    This is a sample table
+  </caption>
+  <thead>
+  <tr>
+    <th rowspan="2">Name</th>
+    <th rowspan="2">Class</th>
+    <th rowspan="2">Roll</th>
+    <th rowspan="2">Phone</th>
+    <th rowspan="2">Email</th>
+    <th rowspan="2">Gender</th>
+    <th colspan="4">Subject</th>
+    <th rowspan="2">Points</th>
+  </tr>
+  <tr>
+    <th>Maths</th>
+    <th>English</th>
+    <th>Science</th>
+    <th>Social</th>
+  </tr>
+</thead>
+<tbody>
+    <tr>
+    <td>Rajan Karki</td>
+    <td>10</td>
+    <td>20</td>
+    <td>98-xxxxx-xx</td>
+    <td>dummy@gmail.com</td>
+    <td>Male</td>
+    <td>Yes</td>
+    <td>NO</td>
+    <td>Yes</td>
+    <td>NO</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Rajan Karki</td>
+    <td>10</td>
+    <td>20</td>
+    <td>98-xxxxx-xx</td>
+    <td>dummy@gmail.com</td>
+    <td>Male</td>
+    <td>Yes</td>
+    <td>NO</td>
+    <td>Yes</td>
+    <td>NO</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Binita K.C.</td>
+    <td>12</td>
+    <td>40</td>
+    <td>98-xxxxx-xx</td>
+    <td>dummy@gmail.com</td>
+    <td>Female</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>NO</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Rajesh Hamal</td>
+    <td>10</td>
+    <td>2</td>
+    <td>98-xxxxx-xx</td>
+    <td>dummy@gmail.com</td>
+    <td>Male</td>
+    <td>NO</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>NO</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Bimala Gharti</td>
+    <td>11</td>
+    <td>24</td>
+    <td>98-xxxxx-xx</td>
+    <td>dummy@gmail.com</td>
+    <td>Female</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>NO</td>
+    <td>10</td>
+  </tr>
+  <tfoot>
+    <tr>
+      <th colspan="10">
+        Total Points
+      </th>
+      <td>
+        50
+      </td>
+    </tr>
+  </tfoot>
+</tbody>
+</table>
+  <br>
+  <p> This is the form</p>
+<form>
+
+  <label for="fname">Name:</label><br />
+  <input type="text" id="fname" name="Name" placeholder=" your name here" /><br />
+  <label for="lname">Class:</label><br />
+  <input type="text" id="lname" name="lname" placeholder="your class here"/><br />
+  <label for="fname">FRoll:</label><br />
+  <input type="text" id="fname" name="fname" placeholder="your roll number" /><br />
+  <label for="lname">Phone:</label><br />
+  <input type="text" id="lname" name="lname" placeholder="your phone number" /><br />
+  <label for="lname">Email:</label><br />
+  <input type="text" id="lname" name="lname" placeholder="your email address" /><br />
+  
+<br> 
+<label for="gender">Gender:</label><br />
+  <input type="radio" id="male" name="Gender" value="male">
+  <label for="male">male</label>
+  <input type="radio" id="female" name="Gender" value="female">
+  <label for="female">female</label><br>
+  <label for="fname">Subject:</label><br />
+  <input type="radio" id="other" name="Gender" value="other">
+  <label for="other">Maths</label>
+  <input type="radio" id="other" name="Gender" value="other">
+  <label for="other">English</label>
+  <br>
+  <label for="fname">Points:</label><br />
+  <input type="text" id="fname" name="fname" placeholder="points" /><br />
+  <input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>

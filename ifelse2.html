@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<h1>Today's Month is</h1>
+<body>
+<p id="demo"></p>
+
+<script>
+    const time = new Date().getMonth();
+    let gretting;
+    if (time == 0) {
+        gretting = "January";
+    }
+    if (time == 1) {
+        gretting = "February";
+    }
+    if (time == 2) {
+        gretting = "March";
+    }
+    if (time == 3) {
+        gretting = "April";
+    }
+    if (time == 4) {
+        gretting = "May";
+    }
+    if (time == 5) {
+        gretting = "June";
+    }
+    if (time == 6) {
+        gretting = "July";
+    }
+    if (time == 7) {
+        gretting = "August";
+    }
+    if (time == 8) {
+        gretting = "September";
+    }
+    if (time == 9) {
+        gretting = "October";
+    }
+    if (time == 10) {
+        gretting = "November";
+    }
+    if (time == 11) {
+        gretting = "December";
+    }
+    document.getElementById("demo").innerHTML=gretting;
+</script>
+
+</body>
+</html>
